@@ -4,6 +4,7 @@
     background-color: #f2f2f2;
     padding: 20px;
     margin-top: 10px;
+
     input[type=text], select, textarea {
         width: 100%; 
         padding: 12px; 
@@ -14,6 +15,7 @@
         margin-bottom: 16px; 
         resize: vertical 
     }
+
     input[type=submit] {
         background-color: red;
         color: white;
@@ -22,7 +24,9 @@
         border-radius: 4px;
         cursor: pointer;
     }
+
     input[type=submit]:hover {
     background-color: brown;
     }
+    
 }
