@@ -1,0 +1,55 @@
+$colorFuente: #eeee;
+$fondo: #000;
+$ancho: 100%;
+
+.padre{
+    height: 500px;
+    width: $ancho;
+    background-color: $fondo;
+    h1{
+        text-align: center;
+        color: $colorFuente;
+    }
+    p{
+        text-align: center;
+        font-size: small;
+        color: $colorFuente;
+    }
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+    .padre{
+        height: 500px;
+        width: $ancho;
+        background-color: $fondo;
+        h1{
+            text-align: center;
+            color: $colorFuente;
+        }
+        p{
+            text-align: center;
+            font-size: larger;
+            color: $colorFuente;
+        }
+    }
+}
+
+/*DESKTOP*/
+
+@media (min-width: 1024px){
+    .padre{
+        height: 500px;
+        width: $ancho;
+        background-color: $fondo;
+        h1{
+            text-align: center;
+            color: $colorFuente;
+        }
+        p{
+            text-align: center;
+            font-size: larger;
+            color: $colorFuente;
+        }
+    }
+}

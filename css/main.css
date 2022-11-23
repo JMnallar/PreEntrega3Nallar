@@ -178,6 +178,55 @@
     font-weight: bold;
   }
 }
+.padre {
+  height: 500px;
+  width: 100%;
+  background-color: #000;
+}
+.padre h1 {
+  text-align: center;
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+.padre p {
+  text-align: center;
+  font-size: small;
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+  .padre {
+    height: 500px;
+    width: 100%;
+    background-color: #000;
+  }
+  .padre h1 {
+    text-align: center;
+    color: rgba(238, 238, 238, 0.9333333333);
+  }
+  .padre p {
+    text-align: center;
+    font-size: larger;
+    color: rgba(238, 238, 238, 0.9333333333);
+  }
+}
+/*DESKTOP*/
+@media (min-width: 1024px) {
+  .padre {
+    height: 500px;
+    width: 100%;
+    background-color: #000;
+  }
+  .padre h1 {
+    text-align: center;
+    color: rgba(238, 238, 238, 0.9333333333);
+  }
+  .padre p {
+    text-align: center;
+    font-size: larger;
+    color: rgba(238, 238, 238, 0.9333333333);
+  }
+}
 h2 {
   text-align: center;
 }
