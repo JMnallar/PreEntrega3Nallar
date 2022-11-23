@@ -1,4 +1,183 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+.containerF {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 10px;
+}
+.containerF input[type=text], .containerF select, .containerF textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.containerF input[type=submit] {
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.containerF input[type=submit]:hover {
+  background-color: brown;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contiene5Cajas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 700px;
+  margin: 40px;
+  margin-top: 90px;
+}
+.contiene5Cajas .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contiene5Cajas .box:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: red;
+  transition-duration: unset;
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+  .contiene5Cajas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 150px;
+    margin: 40px;
+  }
+  .contiene5Cajas .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+/*DESKTOP*/
+@media (min-width: 1024px) {
+  .contiene5Cajas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 150px;
+    margin: 40px;
+  }
+  .contiene5Cajas .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.titleCenter {
+  font-size: 40px;
+  text-align: center;
+}
+
+.contiene5Cajas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 1000px;
+  margin: 40px;
+  margin-top: 90px;
+}
+.contiene5Cajas #serv {
+  border: outset;
+  border-radius: 20px;
+  height: 250px;
+  width: 100%;
+}
+.contiene5Cajas #serv:hover {
+  border: outset;
+  border-radius: 20px;
+  height: 250px;
+  width: 100%;
+  opacity: 0.5;
+  overflow: hidden;
+}
+.contiene5Cajas h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+  .titleCenter {
+    font-size: 50px;
+    text-align: center;
+  }
+  .contiene5Cajas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 200px;
+    margin: 40px;
+  }
+  .contiene5Cajas #serv {
+    border: outset;
+    border-radius: 20px;
+    height: 250px;
+    width: 100%;
+  }
+  .contiene5Cajas h4 {
+    text-align: center;
+    font-weight: bold;
+  }
+}
+/*DESKTOP*/
+@media (min-width: 1024px) {
+  .titleCenter {
+    font-size: 50px;
+    text-align: center;
+  }
+  .contiene5Cajas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 200px;
+    margin: 40px;
+  }
+  .contiene5Cajas #serv {
+    border: outset;
+    border-radius: 20px;
+    height: 250px;
+    width: 100%;
+  }
+  .contiene5Cajas h4 {
+    text-align: center;
+    font-weight: bold;
+  }
+}
 h2 {
   text-align: center;
 }
@@ -145,8 +324,7 @@ h2:hover {
   font-size: 30px;
   z-index: 100;
 }
-
-.whatsapp-icon {
+.whatsapp .whatsapp-icon {
   margin-top: 13px;
 }
 
@@ -215,7 +393,7 @@ footer a {
     font-family: Arial, Helvetica, sans-serif;
   }
   .contiene3cajas h6:hover {
-    color: #d00009;
+    color: red;
     text-align: center;
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
@@ -244,7 +422,7 @@ footer a {
     font-family: Arial, Helvetica, sans-serif;
   }
   .contiene3cajas h6:hover {
-    color: #d00009;
+    color: red;
     text-align: center;
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;

@@ -1,3 +1,8 @@
+@use './Partials/contacto';
+@use './Partials/productos';
+@use './Partials/servicios';
+@use './Partials/sobrenosotros';
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 $height: 200px;
 $colortext: red;
@@ -18,14 +23,12 @@ h2:hover{
     justify-content: center;
     flex-direction: column;
     width: 100%;
-
     .caja {
         display: block;
         align-items: center;
         justify-content: center;
         margin: 20px;
     }
-
     img {
         height: $height;
         margin: 10px 50px 10px 50px;
@@ -34,23 +37,18 @@ h2:hover{
         -webkit-box-shadow: 14px 15px 17px 3px rgba(0,0,0,0.83);
         -moz-box-shadow: 14px 15px 17px 3px rgba(0,0,0,0.83);
     }
-
     h4 {
-
         text-align: center;
         font-size:x-large;
         font-family: Arial, Helvetica, sans-serif;
         margin-bottom: 0;
     }
-
     h4:hover {
-
         color: $colortext;
         text-align: center;
         font-size:x-large;
         font-family: Arial, Helvetica, sans-serif;
     }
-
 }
 
 /*boton */
@@ -148,15 +146,14 @@ h2:hover{
     text-align:center;
     font-size:30px;
     z-index:100;
+    .whatsapp-icon {
+        margin-top:13px;
+    }
 }
 
-.whatsapp-icon {
-    margin-top:13px;
-}
 
 /*MAPS*/
 .map {
-
     h3{
         text-align: center;
         font-size: xx-large;
@@ -171,7 +168,6 @@ height:0;
 border-radius: 20px;
 margin: 10px;
 }
-
 iframe{
 left:0;
 top:0;
@@ -191,11 +187,9 @@ footer {
         align-items: center;
         justify-content: space-around;
     }
-
     .footerUno{
         margin: 20px;
     }
-
     a{
         text-decoration: none;
         color: #fff;
@@ -212,8 +206,6 @@ footer {
         justify-content: center;
         flex-direction: row;
         width: 100%;
-
-    
         img {
             height: $height;
             margin: 10px 50px 10px 50px;
@@ -223,35 +215,29 @@ footer {
             -moz-box-shadow: 14px 15px 17px 3px rgba(0,0,0,0.83);
             
         }
-    
         h6 {
-    
             text-align: center;
             font-size:x-large;
             font-family: Arial, Helvetica, sans-serif;
         }
-    
         h6:hover {
-    
-            color: #d00009;
+            color: $colortext;
             text-align: center;
             font-size:x-large;
             font-family: Arial, Helvetica, sans-serif;
         }
-    
     }
 }
 
 /*DESKTOP*/
+
 @media (min-width: 1024px){
     .contiene3cajas {
-    
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: row;
         width: 100%;
-
         img {
             height: $height;
             margin: 10px 30px 10px 30px;
@@ -260,20 +246,16 @@ footer {
             -webkit-box-shadow: 14px 15px 17px 3px rgba(0,0,0,0.83);
             -moz-box-shadow: 14px 15px 17px 3px rgba(0,0,0,0.83);
         }
-
         h6 {
             text-align: center;
             font-size:x-large;
             font-family: Arial, Helvetica, sans-serif;
         }
-    
         h6:hover {
-    
-            color: #d00009;
+            color: $colortext;
             text-align: center;
             font-size: x-large;
             font-family: Arial, Helvetica, sans-serif;
         }
-    
     }
 }
