@@ -3,7 +3,6 @@ $fondo: #000;
 $ancho: 100%;
 
 .padre{
-
     height: 400px;
     width: $ancho;
     background-color: $fondo;
@@ -37,7 +36,6 @@ $ancho: 100%;
 }
 
 /*DESKTOP*/
-
 @media (min-width: 1024px){
     .padre{
         height: 500px;
