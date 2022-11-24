@@ -47,6 +47,16 @@
   justify-content: center;
   flex-direction: column;
 }
+.contiene5Cajas .box a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+.contiene5Cajas .box a:hover {
+  text-decoration: none;
+  text-align: center;
+  color: red;
+}
 .contiene5Cajas .box:hover {
   display: flex;
   align-items: center;

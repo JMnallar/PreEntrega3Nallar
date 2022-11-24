@@ -19,6 +19,16 @@ $colortext: red;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        a{
+            text-decoration: none;
+            text-align: center;
+            color: black;
+        }
+        a:hover{
+            text-decoration: none;
+            text-align: center;
+            color: $colortext;
+        }
     }
     .box:hover {
         display: flex;
