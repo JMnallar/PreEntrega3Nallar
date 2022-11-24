@@ -1,5 +1,9 @@
-@use './Partials/contacto';
-@use './Partials/productos';
-@use './Partials/servicios';
-@use './Partials/sobrenosotros';
-@use './Partials/index';
+@use './Partials/_contacto';
+
+@use './Partials/_productos';
+
+@use './Partials/_servicios';
+
+@use './Partials/_sobrenosotros';
+
+@use './Partials/_index';
