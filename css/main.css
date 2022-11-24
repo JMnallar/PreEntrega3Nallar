@@ -5,7 +5,8 @@
   padding: 20px;
   margin-top: 10px;
 }
-.containerF input[type=text], .containerF select, .containerF textarea {
+
+input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -15,7 +16,8 @@
   margin-bottom: 16px;
   resize: vertical;
 }
-.containerF input[type=submit] {
+
+input[type=submit] {
   background-color: red;
   color: white;
   padding: 12px 20px;
@@ -23,7 +25,8 @@
   border-radius: 4px;
   cursor: pointer;
 }
-.containerF input[type=submit]:hover {
+
+input[type=submit]:hover {
   background-color: brown;
 }
 
