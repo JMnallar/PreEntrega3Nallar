@@ -237,6 +237,11 @@
     color: rgba(238, 238, 238, 0.9333333333);
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
 h2 {
   text-align: center;
 }
@@ -486,7 +491,6 @@ footer a {
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
   }
-
 }
 
 /*# sourceMappingURL=main.css.map */
